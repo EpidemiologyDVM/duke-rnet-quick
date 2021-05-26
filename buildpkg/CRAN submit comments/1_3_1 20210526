@@ -1,0 +1,5 @@
+Submitting new version to update archived version. * Updated all T and F values to TRUE and FALSE respectively. 
+
+* Several examples take a while to run and have been marked with 'donttest' but have been tested with check(run_dont_test = TRUE)
+
+* Previous comments have asked not to change par() if possible. The only par calls in the current version should be lines 203 and 230 in methods-plot.R. These are necessary and in one case only creates a new plot and in the other passes declared par arguments to a call in a function.
